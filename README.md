@@ -27,29 +27,35 @@ the following database structure. You will have two models (and their
 corresponding tables), `Student` and `Instructor`, with the following
 relationships:
 
-- An instructor has many students
-- A student belongs to an instructor
+✔️ An instructor has many students
+✔️ A student belongs to an instructor
 
 The models should have the following attributes (along with any attributes
 needed to create the relationships defined above):
 
-- Instructor
-  - name (must be present)
-- Student
-  - name (must be present)
-  - major
-  - age (must be >= 18)
+✔️ Instructor
+  ✔️ name (must be present)
+✔️ Student
+  ✔️ name (must be present)
+  ✔️ major
+  ✔️ age (must be >= 18)
 
-Make sure to define validations for your models so that no bad data can be saved
-to the database.
 
 ## Deliverables
 
 As a user, I can:
 
-- Create, read, update and delete **Instructors**
-- Create, read, update and delete **Students**
-  - When creating or updating a student, they must be associated with an
+- **Instructors**
+  Create, 
+  ✔️ read, 
+  update 
+  delete 
+- **Students**
+  Create, 
+  ✔️ read, 
+  update 
+  delete 
+  When creating or updating a student, they must be associated with an
     instructor
 
 Follow good API design practices and use RESTful routing conventions. Make sure
