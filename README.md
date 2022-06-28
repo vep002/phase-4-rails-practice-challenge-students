@@ -46,16 +46,16 @@ needed to create the relationships defined above):
 As a user, I can:
 
 - **Instructors**
-  Create, 
+  ✔️ Create, 
   ✔️ read, 
-  update 
-  delete 
+  ✔️ update 
+  ✔️ delete 
 - **Students**
-  Create, 
+  ✔️ Create, 
   ✔️ read, 
-  update 
-  delete 
-  When creating or updating a student, they must be associated with an
+  ✔️ update 
+  ✔️ delete 
+  ✔️ When creating or updating a student, they must be associated with an
     instructor
 
 Follow good API design practices and use RESTful routing conventions. Make sure
